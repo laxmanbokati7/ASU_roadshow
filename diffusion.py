@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def calculate_stable_time_step():
-    """Calculate a stable time step for the model.""""
+    """Calculate a stable time step for the model."""
     return 0.5*dx**2/diffusivity
 
 def plot_profile(x, cake, color="r"):
